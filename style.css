@@ -14,6 +14,18 @@ body {
   background-color: white;
   box-sizing: border-box;
 }
+
+/* fonts */
+@font-face {
+  font-family: "poppins";
+  src: url("./font/Poppins-Regular.otf");
+}
+
+@font-face {
+  font-family: "poppinsBold";
+  src: url("./font/Poppins-Medium.otf");
+}
+
 .navbar {
   padding: 0rem 0rem 0rem 0rem;
   height: 100px;
@@ -31,4 +43,17 @@ body {
   margin-right: 3%;
   color: white !important;
   cursor: pointer;
+}
+.txtBoldHeader{
+  font-size: 4rem;
+  color: #3a3321;
+  font-family: "poppinsBold";
+}
+.TxtHeader{
+  margin-top: 20px;
+  color: #544937;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  font-family: "poppins";
+
 }
