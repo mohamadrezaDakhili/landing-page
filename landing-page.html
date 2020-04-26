@@ -18,19 +18,23 @@
 </head>
 
 <body>
-    <div class="container p-0">
-        <nav class="navbar m-0">
-            <a class="txtNav">Home</a>
-            <a class="txtNav">About</a>
-            <a class="txtNav">Pricng</a>
-            <a style="margin-right: 7%;" class="txtNav">Content</a>
-            <button type="button" class="btn btnSizeNav btn-outline-light">sign in</button>
-            <button class="btn ml-4 btnSizeNav btn-dark" type="signup">sign up</button>
-        </nav>
-
-        <main class="pt-5">
+    <div class="container-fluid p-0 m-0">
+        <div style="z-index: -1; background-color: #fefeff">
+            <!-- nav bar -->
+            <nav style="z-index: 2;" class="navbar m-0">
+                <a class="txtNav">Home</a>
+                <a class="txtNav">About</a>
+                <a class="txtNav">Pricng</a>
+                <a style="margin-right: 100px;" class="txtNav">Content</a>
+                <button type="button" class="btn btnSizeNav btn-outline-light">sign in</button>
+                <button class="btn ml-4 btnSizeNav btn-dark" type="signup">sign up</button>
+            </nav>
+            <!-- background one page -->
+            <div style="top: 0; right: 0;" class="position-absolute">
+                <img src="./assets/Oval.png" alt="">
+            </div>
             <!-- section one -->
-            <section class="row p-0 m-0 mb-5">
+            <section class="section row m-0 mb-5">
                 <!-- box left -->
                 <div class="col-6 p-0 m-0 mt-5 d-flex justify-content-start align-items-start">
                     <div class="mt-5 p-0 col-10 d-flex flex-column">
@@ -48,9 +52,9 @@
                     </div>
                 </div>
                 <!-- box right -->
-                <div class="d-flex justify-content-center align-items-center col-6 p-0 m-0 mt-5">
+                <div class="d-flex justify-content-end align-items-center col-6 p-0 m-0 mt-5">
                     <!-- image -->
-                    <img style="width: 100%;" src="./assets/Button 2.png" alt="image">
+                    <img style="width: 90%;" src="./assets/Button 2.png" alt="image">
                     <img style="position: absolute;" src="./assets/play.png" alt="play">
                 </div>
                 <!-- box item -->
@@ -101,51 +105,57 @@
                     </div>
                 </div>
             </section>
-
-            <!-- section two -->
-            <section style="margin-top: 10%;" class="d-flex col-12">
-                <div class="col-6 d-flex justify-content-center align-items-center">
-                    <img style="width: 90%;" src="./assets/illustrator.png" alt="img">
+        </div>
+        </section>
+        <!-- section two -->
+        <section style="padding:5% 10%; background-image: linear-gradient(to bottom,#fefeff, #ebe9f6);" class="test section d-flex col-12">
+            <div class="col-6 d-flex justify-content-start align-items-center p-0 ">
+                <img style="width: 80%;" src="./assets/illustrator.png" alt="img">
+            </div>
+            <!-- box txt -->
+            <div class="pl-5 col-6 d-flex justify-content-center align-items-start flex-column">
+                <span style="font-weight: 900; font-size: 4rem;" class="colorBoldTxt">Learn with Protips</span>
+                <div class="mt-4 d-flex align-items-center w-100">
+                    <img style="width: 23px;" src="./assets/tick.svg" alt="tick">
+                    <span class="txtItem ml-3">Beyond The Naked Eye</span>
                 </div>
-                <div class="pl-5 col-6 d-flex justify-content-center align-items-start flex-column">
-                    <span style="font-weight: 900; font-size: 3.2rem;" class="colorBoldTxt">Learn with Protips</span>
-                    <div class="mt-4 d-flex align-items-center w-100">
-                        <img style="width: 20px;" src="./assets/tick.svg" alt="tick">
-                        <span class="txtItem ml-3">Beyond The Naked Eye</span>
-                    </div>
-                    <div class="mt-4 d-flex align-items-center w-100">
-                        <img style="width: 20px;" src="./assets/tick.svg" alt="tick">
-                        <span class="txtItem ml-3">Make Griling A Healthy Experience</span>
-                    </div>
-                    <div class="mt-4 d-flex align-items-center w-100">
-                        <img style="width: 20px;" src="./assets/tick.svg" alt="tick">
-                        <span class="txtItem ml-3">Make Sure Your Ice Is Safe And clean</span>
-                    </div>
-                    <div class="mt-4 d-flex align-items-center w-100">
-                        <img style="width: 20px;" src="./assets/tick.svg" alt="tick">
-                        <span class="txtItem ml-3">Peace On Earth A Wonderful Wish But No Way</span>
-                    </div>
-                    <div class="mt-4 d-flex align-items-center w-100">
-                        <img style="width: 20px;" src="./assets/tick.svg" alt="tick">
-                        <span class="txtItem ml-3">Get Best Advertiser In Your Side Pocket</span>
-                    </div>
-                    <div class="mt-4 d-flex align-items-center w-100">
-                        <img style="width: 20px;" src="./assets/tick.svg" alt="tick">
-                        <span class="txtItem ml-3">What S Under Your Grill</span>
-                    </div>
-                    <div class="mt-5 w-100 d-flex align-items-center justify-content-start bg-dark">
-                        <button style="font-size: 1.5rem; width: 35%; height: 40px;" type="button" class="mt-5 btn colorBtnPrimery">Know More</button>
-                        <div class="d-flex align-items-center">
-                            <span style="color: #432b99;">Watch Video</span>
-                        </div>
-                    </div>
-
-
+                <div class="mt-4 d-flex align-items-center w-100">
+                    <img style="width: 23px;" src="./assets/tick.svg" alt="tick">
+                    <span class="txtItem ml-3">Make Griling A Healthy Experience</span>
                 </div>
-            </section>
-        </main>
+                <div class="mt-4 d-flex align-items-center w-100">
+                    <img style="width: 23px;" src="./assets/tick.svg" alt="tick">
+                    <span class="txtItem ml-3">Make Sure Your Ice Is Safe And clean</span>
+                </div>
+                <div class="mt-4 d-flex align-items-center w-100">
+                    <img style="width: 23px;" src="./assets/tick.svg" alt="tick">
+                    <span class="txtItem ml-3">Peace On Earth A Wonderful Wish But No Way</span>
+                </div>
+                <div class="mt-4 d-flex align-items-center w-100">
+                    <img style="width: 23px;" src="./assets/tick.svg" alt="tick">
+                    <span class="txtItem ml-3">Get Best Advertiser In Your Side Pocket</span>
+                </div>
+                <div class="mt-4 d-flex align-items-center w-100">
+                    <img style="width: 23px;" src="./assets/tick.svg" alt="tick">
+                    <span class="txtItem ml-3">What S Under Your Grill</span>
+                </div>
+                <div class="mt-5 w-100 d-flex align-items-center justify-content-start">
+                    <button style="font-size: 1.5rem; width: 25%; height: 50px;" type="button" class="mt-5 btn colorBtnPrimery">Know
+                        More</button>
+                    <div class="d-flex align-items-center mt-5">
+                        <span class="ml-5 txtPoppinsMedium" style="font-size: 1.5rem; color: #432b99;">Watch Video</span>
+                        <img class="ml-3" src="./assets/playSign.svg" alt="play">
+                    </div>
+                </div>
+            </div>    
+        </section>
+        <!-- section three -->
+        <section>
 
+        </section>
     </div>
+
+
 </body>
 
 <!-- added js file -->

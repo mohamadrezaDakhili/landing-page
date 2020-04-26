@@ -1,0 +1,121 @@
+<main class="pt-5">
+            <!-- section one -->
+            <section class="row p-0 m-0 mb-5">
+                <!-- box left -->
+                <div class="col-6 p-0 m-0 mt-5 d-flex justify-content-start align-items-start">
+                    <div class="mt-5 p-0 col-10 d-flex flex-column">
+                        <!-- text Header -->
+                        <span class="txtBoldHeader">A Guide To <span style="font-weight: 900;"
+                                class="txtBoldHeader">Rocky</span></span>
+                        <span class="txtBoldHeader">Mountain Vacations</span>
+                        <span class="TxtHeader">Maui helicoptertours are a graet way to see island from a different
+                            perspective and have a
+                            fun adventure.if you have never been on a herlicopter before,this is a graet placeto do
+                            it.</span>
+                        <!-- button -->
+                        <button style="width: 35%; height: 40px;" type="button" class="mt-5 btn colorBtnPrimery">Get
+                            Started</button>
+                    </div>
+                </div>
+                <!-- box right -->
+                <div class="d-flex justify-content-center align-items-center col-6 p-0 m-0 mt-5">
+                    <!-- image -->
+                    <img style="width: 100%;" src="./assets/Button 2.png" alt="image">
+                    <img style="position: absolute;" src="./assets/play.png" alt="play">
+                </div>
+                <!-- box item -->
+                <div class="p-0 mt-5 col-12 d-flex justify-content-start align-items-start">
+                    <!-- One item -->
+                    <div class="col-3 mt-3 d-flex justify-content-start flex-column">
+                        <div class="boxImage d-flex justify-content-center align-items-center">
+                            <img src="./assets/worldBook.svg" alt="worldBook">
+                        </div>
+                        <span class="txtBoldItem colorBoldTxt">
+                            First click tests
+                        </span>
+                        <span class="txtItem">while most people enjoy</span>
+                        <span class="txtItem">casino gambling.</span>
+                    </div>
+                    <!-- two item -->
+                    <div class="col-3 mt-3 d-flex justify-content-start flex-column">
+                        <div style="background-color: #432b99;"
+                            class="boxImage d-flex justify-content-center align-items-center">
+                            <img style="fill: black;" src="./assets/biohazard.svg" alt="biohazard">
+                        </div>
+                        <span class="txtBoldItem colorBoldTxt">
+                            Design surveys
+                        </span>
+                        <span class="txtItem">sports betting lottery and</span>
+                        <span class="txtItem">bingo playing forthe fun</span>
+                    </div>
+                    <!-- three item -->
+                    <div class="col-3 mt-3 d-flex justify-content-start flex-column">
+                        <div class="boxImage d-flex justify-content-center align-items-center">
+                            <img src="./assets/handshake.svg" alt="handshake">
+                        </div>
+                        <span class="txtBoldItem colorBoldTxt">
+                            Preference tests
+                        </span>
+                        <span class="txtItem">The myspace page defines</span>
+                        <span class="txtItem">the individual</span>
+                    </div>
+                    <div class="col-3 mt-3 d-flex justify-content-start flex-column">
+                        <div class="boxImage d-flex justify-content-center align-items-center">
+                            <img src="./assets/person.svg" alt="person">
+                        </div>
+                        <span class="txtBoldItem colorBoldTxt">
+                            User astronaut
+                        </span>
+                        <span class="txtItem">Personal choisec and the</span>
+                        <span class="txtItem">overall personality of the person</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- section two -->
+            <!-- box image -->
+            <section style="margin-top: 10%;" class="d-flex col-12">
+                <div class="col-6 d-flex justify-content-start align-items-center p-0">
+                    <img style="width: 90%;" src="./assets/illustrator.png" alt="img">
+                </div>
+                <!-- box txt -->
+                <div class="pl-5 col-6 d-flex justify-content-center align-items-start flex-column">
+                    <span style="font-weight: 900; font-size: 3.2rem;" class="colorBoldTxt">Learn with Protips</span>
+                    <div class="mt-4 d-flex align-items-center w-100">
+                        <img style="width: 20px;" src="./assets/tick.svg" alt="tick">
+                        <span class="txtItem ml-3">Beyond The Naked Eye</span>
+                    </div>
+                    <div class="mt-4 d-flex align-items-center w-100">
+                        <img style="width: 20px;" src="./assets/tick.svg" alt="tick">
+                        <span class="txtItem ml-3">Make Griling A Healthy Experience</span>
+                    </div>
+                    <div class="mt-4 d-flex align-items-center w-100">
+                        <img style="width: 20px;" src="./assets/tick.svg" alt="tick">
+                        <span class="txtItem ml-3">Make Sure Your Ice Is Safe And clean</span>
+                    </div>
+                    <div class="mt-4 d-flex align-items-center w-100">
+                        <img style="width: 20px;" src="./assets/tick.svg" alt="tick">
+                        <span class="txtItem ml-3">Peace On Earth A Wonderful Wish But No Way</span>
+                    </div>
+                    <div class="mt-4 d-flex align-items-center w-100">
+                        <img style="width: 20px;" src="./assets/tick.svg" alt="tick">
+                        <span class="txtItem ml-3">Get Best Advertiser In Your Side Pocket</span>
+                    </div>
+                    <div class="mt-4 d-flex align-items-center w-100">
+                        <img style="width: 20px;" src="./assets/tick.svg" alt="tick">
+                        <span class="txtItem ml-3">What S Under Your Grill</span>
+                    </div>
+                    <div class="mt-5 w-100 d-flex align-items-center justify-content-start">
+                        <button style="font-size: 1.5rem; width: 35%; height: 40px;" type="button" class="btn colorBtnPrimery">Know More</button>
+                        <div class="d-flex align-items-center">
+                            <span class="ml-5 txtPoppinsMedium" style="font-size: 1.5rem; color: #432b99;">Watch Video</span>
+                            <img class="ml-3" src="./assets/playSign.svg" alt="play">
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </section>
+        </main>
+
