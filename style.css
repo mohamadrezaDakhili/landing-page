@@ -104,3 +104,26 @@ body {
   font-weight: 900; 
   font-size: 3.8rem;
 }
+.boxSectionFive {
+  background-color: #432b99;
+  border-radius: 10px;
+}
+.boxEmail{
+  border: 2px solid #a295cb;
+  border-radius: 10px;
+}
+.inputEmail{
+  width: 90%; 
+  height: 70%;
+  margin-left: 10px;
+  background-color: transparent;
+    color: #a295cb;
+  font-family: "poppins";
+  font-size: 1.5rem;
+  outline: transparent;
+}
+.inputEmail::placeholder{
+  color: #a295cb;
+  font-family: "poppins";
+  font-size: 1.5rem;
+}
