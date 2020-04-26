@@ -29,19 +29,19 @@ body {
   font-family: "poppinsBold";
   src: url("./font/Poppins-Bold.otf");
 }
-.txtPoppinsMedium{
+.txtPoppinsMedium {
   font-family: "poppinsMedium";
 }
 /* colors  */
-.colorBtnPrimery{
+.colorBtnPrimery {
   background-color: #432b99;
   color: white;
 }
-.colorBoldTxt{
+.colorBoldTxt {
   color: #3a3321;
   font-family: "poppinsMedium";
 }
-.colorTxt{
+.colorTxt {
   color: #554a38;
 }
 .navbar {
@@ -62,68 +62,78 @@ body {
   color: white !important;
   cursor: pointer;
 }
-.txtBoldHeader{
+.txtBoldHeader {
   font-size: 4rem;
   color: #3a3321;
   font-family: "poppinsMedium";
 }
-.TxtHeader{
+.TxtHeader {
   margin-top: 20px;
   color: #544937;
   font-size: 1.8rem;
   line-height: 2.7rem;
   font-family: "poppins";
-
 }
-.boxImage{
+.boxImage {
   width: 75px;
   height: 75px;
-  border:2px solid #432b99;
+  border: 2px solid #432b99;
   border-radius: 9px;
 }
-.txtBoldItem{
+.txtBoldItem {
   color: #3a3321;
   font-size: 1.5rem;
   font-family: "poppinsBold";
-  margin: 12px 0 ;
+  margin: 12px 0;
 }
-.txtItem{
+.txtItem {
   color: #626264;
   font-size: 1.8rem;
   font-weight: 400;
   font-family: "poppins";
 }
-.section{
+.section {
   padding: 0rem 10%;
 }
-.ellipse{
+.ellipse {
   -webkit-clip-path: ellipse(100% 100% at 50% 0%);
   clip-path: ellipse(100% 100% at 50% 0%);
 }
-.txtBold{
-  font-weight: 900; 
+.txtBold {
+  font-weight: 900;
   font-size: 3.8rem;
 }
 .boxSectionFive {
   background-color: #432b99;
   border-radius: 10px;
 }
-.boxEmail{
+.boxEmail {
   border: 2px solid #a295cb;
   border-radius: 10px;
 }
-.inputEmail{
-  width: 90%; 
+.inputEmail {
+  width: 90%;
   height: 70%;
   margin-left: 10px;
   background-color: transparent;
-    color: #a295cb;
+  color: #a295cb;
   font-family: "poppins";
   font-size: 1.5rem;
   outline: transparent;
 }
-.inputEmail::placeholder{
+.inputEmail::placeholder {
   color: #a295cb;
   font-family: "poppins";
   font-size: 1.5rem;
+}
+.boxSectionSeven {
+  border-top: 2px solid #dde7f1;
+  border-bottom: 2px solid #dde7f1;
+}
+.list-group-item {
+  border: transparent;
+  font-family: "poppins";
+  font-size: 1.4rem;
+  padding-left: 0;
+  color: #554a38;
 }
