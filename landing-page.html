@@ -11,10 +11,12 @@
     <!-- added css file -->
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" type="image/png" href="" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>landing page</title>
     <!-- added jquery file in project -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/46d1777388.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
@@ -47,7 +49,7 @@
                             fun adventure.if you have never been on a herlicopter before,this is a graet placeto do
                             it.</span>
                         <!-- button -->
-                        <button style="width: 35%; height: 40px;" type="button" class="mt-5 btn colorBtnPrimery">Get
+                        <button type="button" class="boxButton mt-5 btn colorBtnPrimery">Get
                             Started</button>
                     </div>
                 </div>
@@ -55,12 +57,12 @@
                 <div class="d-flex justify-content-end align-items-center col-6 p-0 m-0 mt-5">
                     <!-- image -->
                     <img style="width: 90%;" src="./assets/Button 2.png" alt="image">
-                    <img style="position: absolute;" src="./assets/play.png" alt="play">
+                    <img style="position: absolute; top: 40%; left: 50%;" src="./assets/play.png" alt="play">
                 </div>
                 <!-- box item -->
-                <div class="p-0 mt-5 col-12 d-flex justify-content-start align-items-start">
+                <div class="p-0 pt-5 mt-5 col-12 d-flex justify-content-start align-items-start">
                     <!-- One item -->
-                    <div class="col-3 mt-3 d-flex justify-content-start flex-column">
+                    <div class="col-3 p-0 mt-3 d-flex justify-content-start flex-column">
                         <div class="boxImage d-flex justify-content-center align-items-center">
                             <img src="./assets/worldBook.svg" alt="worldBook">
                         </div>
@@ -93,6 +95,7 @@
                         <span class="txtItem">The myspace page defines</span>
                         <span class="txtItem">the individual</span>
                     </div>
+                    <!-- four item -->
                     <div class="col-3 mt-3 d-flex justify-content-start flex-column">
                         <div class="boxImage d-flex justify-content-center align-items-center">
                             <img src="./assets/person.svg" alt="person">
@@ -106,44 +109,40 @@
                 </div>
             </section>
         </div>
-        </section>
         <!-- section two -->
-        <section style="padding:10% 10% 5%; background-image: linear-gradient(to bottom,#fefeff, #ebe9f6);"
-            class="ellipse section d-flex col-12">
-            <div class="col-6 d-flex justify-content-start align-items-center p-0 ">
+        <section style="padding:10% 10% 5%;" class="ellipse section d-flex col-12">
+            <div data-aos="fade-right" class="col-6 d-flex justify-content-start align-items-center p-0 ">
                 <img style="width: 80%;" src="./assets/illustrator.png" alt="img">
             </div>
             <!-- box txt -->
             <div class="pl-5 col-6 d-flex justify-content-center align-items-start flex-column">
-                <span class="txtBold colorBoldTxt">Learn with Protips</span>
+                <span data-aos="fade-left" class="txtBold colorBoldTxt">Learn with Protips</span>
                 <div class="mt-4 d-flex align-items-center w-100">
                     <img style="width: 23px;" src="./assets/tick.svg" alt="tick">
-                    <span class="txtItem ml-3">Beyond The Naked Eye</span>
+                    <span data-aos="fade-left" class="txtItem ml-3">Beyond The Naked Eye</span>
                 </div>
                 <div class="mt-4 d-flex align-items-center w-100">
                     <img style="width: 23px;" src="./assets/tick.svg" alt="tick">
-                    <span class="txtItem ml-3">Make Griling A Healthy Experience</span>
+                    <span data-aos="fade-left" class="txtItem ml-3">Make Griling A Healthy Experience</span>
                 </div>
                 <div class="mt-4 d-flex align-items-center w-100">
                     <img style="width: 23px;" src="./assets/tick.svg" alt="tick">
-                    <span class="txtItem ml-3">Make Sure Your Ice Is Safe And clean</span>
+                    <span data-aos="fade-left" class="txtItem ml-3">Make Sure Your Ice Is Safe And clean</span>
                 </div>
                 <div class="mt-4 d-flex align-items-center w-100">
                     <img style="width: 23px;" src="./assets/tick.svg" alt="tick">
-                    <span class="txtItem ml-3">Peace On Earth A Wonderful Wish But No Way</span>
+                    <span data-aos="fade-left" class="txtItem ml-3">Peace On Earth A Wonderful Wish But No Way</span>
                 </div>
                 <div class="mt-4 d-flex align-items-center w-100">
                     <img style="width: 23px;" src="./assets/tick.svg" alt="tick">
-                    <span class="txtItem ml-3">Get Best Advertiser In Your Side Pocket</span>
+                    <span data-aos="fade-left" class="txtItem ml-3">Get Best Advertiser In Your Side Pocket</span>
                 </div>
                 <div class="mt-4 d-flex align-items-center w-100">
                     <img style="width: 23px;" src="./assets/tick.svg" alt="tick">
-                    <span class="txtItem ml-3">What S Under Your Grill</span>
+                    <span data-aos="fade-left" class="txtItem ml-3">What S Under Your Grill</span>
                 </div>
                 <div class="mt-5 w-100 d-flex align-items-center justify-content-start">
-                    <button style="font-size: 1.5rem; width: 25%; height: 50px;" type="button"
-                        class="mt-5 btn colorBtnPrimery">Know
-                        More</button>
+                    <button type="button" class="boxButton mt-5 btn colorBtnPrimery">Know More</button>
                     <div class="d-flex align-items-center mt-5">
                         <span class="ml-5 txtPoppinsMedium" style="font-size: 1.5rem; color: #432b99;">Watch
                             Video</span>
@@ -155,17 +154,16 @@
         <!-- section three -->
         <section style="padding-top: 5%;" class="d-flex justify-content-center align-items-center flex-column">
             <span class="txtBold colorBoldTxt">Testimonial</span>
-            <span style="font-family: poppinsMedium; font-size: 1.5rem;" class="pt-4 colorTxt">Vampires The Romantic
+            <span style="font-size: 1.5rem;" class="txtPoppinsMedium pt-4 colorTxt">Vampires The Romantic
                 IdeologyBihind Them</span>
-            <img style="padding-top: 70px;" src="./assets/TestimonialPicture.png" alt="pic">
+            <img data-aos="zoom-in" style="padding-top: 70px;" src="./assets/TestimonialPicture.png" alt="pic">
             <span style="color: #122649; font-size: 3rem;" class="txtBold colorBoldTxt">Johan Doe</span>
-            <span style="font-family: poppinsMedium; font-size: 1.5rem; color: #6955ae;"
-                class="pt-2">CEO,PrettyDopeDesign</span>
+            <span style="font-size: 1.5rem; color: #6955ae;" class="pt-2 txtPoppinsMedium">CEO,PrettyDopeDesign</span>
             <span style="font-family: poppins; font-size: 1.5rem; color: #2c4e8b;" class="pt-5">When To Use High Heat On
                 Your Barbque.What S Under</span>
             <span style="font-family: poppins; font-size: 1.5rem; color: #2c4e8b;" class="pt-2">Your Grill</span>
             <span style="padding-top: 5%;" class="txtBold colorBoldTxt">Our Story</span>
-            <span style="font-family: poppinsMedium; font-size: 1.5rem;" class="pt-4 colorTxt">Vampires The Romantic
+            <span style="font-size: 1.5rem;" class="txtPoppinsMedium pt-4 colorTxt">Vampires The Romantic
                 IdeologyBihind Them</span>
         </section>
         <!-- section four -->
@@ -220,21 +218,21 @@
                     IdeologyBihind Them</span>
                 <div style="padding-top: 5%;" class="d-flex w-100 justify-content-between">
                     <div style="width: 30%;" class="d-flex flex-column justify-content-start">
-                        <img style="width: 100%;" src="./assets/image1.png" alt="image1">
+                        <img data-aos="zoom-in-down" style="width: 100%;" src="./assets/image1.png" alt="image1">
                         <span style="font-size: 2.2rem;" class="pt-5 m-0 txtBold colorBoldTxt">Upraeting To Microsoft
                             Windows Vista Tips</span>
                         <span style="font-family: poppinsMedium; font-size: 1.5rem;" class="pt-4 colorTxt">By <span
                                 style="font-weight: 700;">Abual Hasan Milon</span> | 02 Feb 2019</span>
                     </div>
                     <div style="width: 30%;" class="d-flex flex-column justify-content-start">
-                        <img style="width: 100%;" src="./assets/image2.png" alt="image2">
+                        <img data-aos="zoom-in-down" style="width: 100%;" src="./assets/image2.png" alt="image2">
                         <span style="font-size: 2.2rem;" class="pt-5 m-0 txtBold colorBoldTxt">Finally A Top Secret Way
                             You Can Get Google</span>
                         <span style="font-family: poppinsMedium; font-size: 1.5rem;" class="pt-4 colorTxt">By <span
                                 style="font-weight: 700;">Milon Mahamud</span> | 06 Feb 2019</span>
                     </div>
                     <div style="width: 30%;" class="d-flex flex-column justify-content-start">
-                        <img style="width: 100%;" src="./assets/image3.png" alt="image3">
+                        <img data-aos="zoom-in-down" style="width: 100%;" src="./assets/image3.png" alt="image3">
                         <span style="font-size: 2.2rem;" class="pt-5 m-0 txtBold colorBoldTxt">The Universe Through A
                             Child S Eyes</span>
                         <span style="font-family: poppinsMedium; font-size: 1.5rem;" class="pt-4 colorTxt">By <span
@@ -274,7 +272,7 @@
             </div>
         </section>
         <!-- section seven -->
-        <section style="padding: 0 10%;">
+        <section class="section">
             <div class=" pb-5 pt-5 w-100 boxSectionSeven d-flex justify-content-between align-items-center">
                 <div class="col-4 p-0 d-flex justify-content-start align-items-center">
                     <span style="font-family: poppinsMedium; font-size: 1.5rem;" class="colorTxt">would not have any
@@ -312,15 +310,20 @@
             </div>
 
         </section>
-        
+        <!-- section eight -->
+        <section class="section">
+            <div style="font-family: poppins; font-size: 1.2rem;" class="p-5 text-center colorTxt">
+                Design by Ehsan
+            </div>
 
+        </section>
     </div>
 
 
 </body>
 
 <!-- added js file -->
-<script>
+<script src="script.js">
 
 </script>
 

@@ -14,13 +14,11 @@ body {
   background-color: white;
   box-sizing: border-box;
 }
-
 /* fonts */
 @font-face {
   font-family: "poppins";
   src: url("./font/Poppins-Regular.otf");
 }
-
 @font-face {
   font-family: "poppinsMedium";
   src: url("./font/Poppins-Medium.otf");
@@ -28,9 +26,6 @@ body {
 @font-face {
   font-family: "poppinsBold";
   src: url("./font/Poppins-Bold.otf");
-}
-.txtPoppinsMedium {
-  font-family: "poppinsMedium";
 }
 /* colors  */
 .colorBtnPrimery {
@@ -44,17 +39,8 @@ body {
 .colorTxt {
   color: #554a38;
 }
-.navbar {
-  padding: 0rem 10%;
-  height: 100px;
-  justify-content: flex-end;
-  align-items: center;
-}
-.btnSizeNav {
-  width: 7%;
-  height: 45%;
-  font-size: 1.5rem;
-  font-weight: 600;
+.txtPoppinsMedium {
+  font-family: "poppinsMedium";
 }
 .txtNav {
   font-size: 1.3rem;
@@ -74,6 +60,18 @@ body {
   line-height: 2.7rem;
   font-family: "poppins";
 }
+.navbar {
+  padding: 0rem 10%;
+  height: 100px;
+  justify-content: flex-end;
+  align-items: center;
+}
+.btnSizeNav {
+  width: 7%;
+  height: 45%;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
 .boxImage {
   width: 75px;
   height: 75px;
@@ -82,9 +80,9 @@ body {
 }
 .txtBoldItem {
   color: #3a3321;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   font-family: "poppinsBold";
-  margin: 12px 0;
+  margin: 20px 0;
 }
 .txtItem {
   color: #626264;
@@ -98,6 +96,7 @@ body {
 .ellipse {
   -webkit-clip-path: ellipse(100% 100% at 50% 0%);
   clip-path: ellipse(100% 100% at 50% 0%);
+  background-image: linear-gradient(to bottom,#fefeff, #ebe9f6);
 }
 .txtBold {
   font-weight: 900;
@@ -136,4 +135,11 @@ body {
   font-size: 1.4rem;
   padding-left: 0;
   color: #554a38;
+}
+.boxButton{
+  width: 170px;
+  height: 50px;
+  font-size: 1.4rem; 
+  font-family: "poppinsMedium";
+  color: white;
 }
